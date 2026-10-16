@@ -1,0 +1,8 @@
+{
+  "_copyright": "Copyright (c) 2026 aziz-sudrajat <azizsudrajat.stb4@gmail.com> — https://github.com/aziz-sudrajat",
+  "checks_file": "checks.json",
+  "remind_minutes": 60,
+  "state_file": "state.json",
+  "telegram_bot_token": "1234567890:AAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "telegram_chat_id": "123456789"
+}
