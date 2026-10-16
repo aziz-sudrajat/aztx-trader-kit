@@ -1,0 +1,49 @@
+[
+  {
+    "interval_seconds": 60,
+    "name": "situs-utama",
+    "params": {
+      "expect_status": 200,
+      "timeout": 10,
+      "url": "https://example.com"
+    },
+    "type": "http"
+  },
+  {
+    "interval_seconds": 60,
+    "name": "ssh-lokal",
+    "params": {
+      "host": "127.0.0.1",
+      "port": 22,
+      "timeout": 5
+    },
+    "type": "tcp"
+  },
+  {
+    "interval_seconds": 300,
+    "name": "disk-root",
+    "params": {
+      "max_pct": 90,
+      "path": "/"
+    },
+    "type": "disk"
+  },
+  {
+    "interval_seconds": 60,
+    "name": "bot-jalan",
+    "params": {
+      "name": "bot.py"
+    },
+    "type": "proc"
+  },
+  {
+    "interval_seconds": 3600,
+    "name": "backup-harian",
+    "params": {
+      "expect_exit": 0,
+      "shell": "test -f /var/backups/daily.tgz",
+      "timeout": 30
+    },
+    "type": "cmd"
+  }
+]
