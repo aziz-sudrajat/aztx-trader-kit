@@ -1,0 +1,25 @@
+# Copyright (c) 2026 aziz-sudrajat <azizsudrajat.stb4@gmail.com>
+# https://github.com/aziz-sudrajat
+#
+# All rights reserved. This file is part of the aztx-trader-kit project.
+# Unauthorized copying, modification, distribution, or false claim of
+# authorship is prohibited.
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Logs & state runtime
+*.log
+state/
+state.json
+alert_state.json
+
+# Konfigurasi lokal (jangan commit!)
+config.json
+checks.json
+*.env
+.bot.env
+bot.env
