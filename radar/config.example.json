@@ -1,0 +1,11 @@
+{
+  "dedup_hours": 8,
+  "quote_filter": [
+    "USDT"
+  ],
+  "scan_interval_minutes": 15,
+  "spread_alert_pct": 0.05,
+  "telegram_bot_token": "ISI_TOKEN_BOT_DARI_BOTFATHER",
+  "telegram_chat_id": "ISI_CHAT_ID_ANDA",
+  "top_n_okx": 30
+}
